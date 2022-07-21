@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+    font-family: 'Lora', serif;
+    margin: 10px;
+    color: white;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    font-size: 1.5rem;
+}
+
+td {
+    padding: 10px;
+    margin-left: 5px;
+    border-bottom: 1px solid grey;
+}

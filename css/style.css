@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+.wrapper {
+    background: linear-gradient(130deg, #ad746f, #304c85);
+    background-size: cover;
+    display: block;
+    height: 250vh;
+}
+
+.navbar {
+    box-sizing: border-box;
+    z-index: 500;
+    position: sticky;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.navbar .logo {
+    width: 150px;
+    height: auto;
+    padding: 5px 40px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 100px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: red;
+    border-radius: 2px;
+}
+
+.wrapper .center {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1 {
+    margin-top: 1000px;
+    margin-bottom: 80px;
+    color: rgb(255, 251, 0);
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    font-size: 52px;
+    width: 900px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.center h4 {
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 870px;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.center .photos img {
+    padding-top: 40px;
+    align-content: center;
+    width: 93%;
+    height: auto;
+}
+
+.center .image img {
+    padding-top: 10px;
+    padding-left: 45px;
+    align-content: center;
+    width: auto;
+    height: auto;
+}
+
+.center .photos h3 {
+    color: black;
+    letter-spacing: 4px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 2px;
+    width: 885px;
+    text-align: center;
+}
+
+.center .image h3 {
+    padding-top: 80px;
+    color: black;
+    letter-spacing: 4px;
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2px;
+    width: 885px;
+    text-align: center;
+}
+
+footer p {
+    padding: 0;
+    font-size: 0.8em;
+    color: hsla(0, 50%, 100%, 0.35);
+    margin: 1em 0;
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: 1em 0;
+}
+
+footer ul li a {
+    padding: 1em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+    transition: 100ms;
+}
+
+footer ul li a:hover {
+    color: var(--primary);
+}
+
+footer {
+    width: 95.95%;
+    background: #0f0029;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    padding: 2em;
+    font-size: 1.2rem;
+}
+
+
+/* Sticky Footer Styling */
+
+body {
+    min-height: 100vh;
+}
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}
+
+
+/* Product page  
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 10px solid red;
+}
+
+.flex .h4 {
+    font-family: 'Lora', serif;
+}
+*/

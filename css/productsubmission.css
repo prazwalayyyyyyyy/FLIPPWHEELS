@@ -1,0 +1,66 @@
+* {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+
+.container {
+    margin-top: 1%;
+    font-family: "Comic Sans MS", cursive;
+    padding: 40px 8px 20px 38px;
+    margin-left: 5%;
+    height: 35%;
+    width: 30%;
+}
+
+.txt {
+    width: 90%;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px 15px 20px 15px;
+    margin: 10px 0px 15px 0px;
+}
+
+select {
+    width: 30%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 0px 15px 0px;
+}
+
+.submit {
+    color: #FFF;
+    background-color: #151515;
+    width: 90%;
+    border: 1px #151515 solid;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 0px 15px 0px;
+    cursor: pointer;
+}
+
+.home {
+    text-align: left;
+}
+
+.home a {
+    text-decoration: none;
+    color: #000;
+}
+
+.home a:hover {
+    background: #7851a9;
+    border-radius: 2px;
+}
+
+.btn-btn-success {
+    padding-left: 0;
+    background: #be2edd;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border: transparent;
+}
